@@ -1,5 +1,7 @@
 ## Group Project
 
+Check the [project report](https://github.com/themrshubh/mriclassifier/blob/main/report.pdf) for details 
+
 **Course**: CSC 522 (ALDA), North Carolina State University\
 **Instructor**: Dr. Min Chi\
 **Semester**: Fall 2021\
@@ -11,19 +13,19 @@
 
 | File | Description                                                                                                       |
 |----------|-----------------------------------------------------------------------------------------------------------------------|
-|[mri_data_functions.py](https://github.ncsu.edu/jwood9/CSC_522_Project/blob/main/mri_data_functions.py)| Function definitions required for reading MRI data from file. |
-|[cnn_model_functions.py](https://github.ncsu.edu/jwood9/CSC_522_Project/blob/main/cnn_model_functions.py)| Definition of the CNN model used for image classification. |
-|[cnn_model_tuning.py](https://github.ncsu.edu/jwood9/CSC_522_Project/blob/main/cnn_model_tuning.py)| Code to perform bayesian optimization of the CNN model using 3-fold cross-validation. |
-|[run_cnn_model_tuning.sh](https://github.ncsu.edu/jwood9/CSC_522_Project/blob/main/run_cnn_model_tuning.sh)| Runs the CNN model tuning with each type of MRI image as input. |
-|[cnn_model_evaluation.py](https://github.ncsu.edu/jwood9/CSC_522_Project/blob/main/cnn_model_evaluation.py)| Code to evaluate the CNN model on the test dataset. |
-|[run_cnn_model_evaluation.sh](https://github.ncsu.edu/jwood9/CSC_522_Project/blob/main/run_cnn_model_evaluation.sh)| Runs the CNN model evaluation with each type of MRI image as input. |
-|[cnn_lstm_model_functions.py](https://github.ncsu.edu/jwood9/CSC_522_Project/blob/main/cnn_lstm_model_functions.py)| Definition of the CNN-LSTM model used for image classification. |
-|[cnn_lstm_model_tuning.py](https://github.ncsu.edu/jwood9/CSC_522_Project/blob/main/cnn_model_tuning.py)| Code to perform bayesian optimization of the CNN-LSTM model using 3-fold cross-validation. |
-|[run_cnn_model_tuning.sh](https://github.ncsu.edu/jwood9/CSC_522_Project/blob/main/run_cnn_model_tuning.sh)| Runs the CNN-LSTM model tuning with each type of MRI image as input. |
-|[cnn_model_evaluation.py](https://github.ncsu.edu/jwood9/CSC_522_Project/blob/main/cnn_model_evaluation.py)| Code to evaluate the CNN-LSTM model on the test dataset. |
-|[run_cnn_model_evaluation.sh](https://github.ncsu.edu/jwood9/CSC_522_Project/blob/main/run_cnn_model_evaluation.sh)| Runs the CNN-LSTM model evaluation with each type of MRI image as input. |
-|[svm_model_tuning_evaluation.py](https://github.ncsu.edu/jwood9/CSC_522_Project/blob/main/svm_model_tuning_evaluation.py)| Code to tune and evaluate the SVM model on the test dataset. |
-|[run_svm_model_tuning_evaluation.sh](https://github.ncsu.edu/jwood9/CSC_522_Project/blob/main/run_svm_model_tuning_evaluation.sh)| Runs the SVM model tuning and evaluation with each type of MRI image as input. |
+|[mri_data_functions.py](https://github.com/themrshubh/mriclassifier/blob/main/mri_data_functions.py)| Function definitions required for reading MRI data from file. |
+|[cnn_model_functions.py](https://github.com/themrshubh/mriclassifier/blob/main/cnn_model_functions.py)| Definition of the CNN model used for image classification. |
+|[cnn_model_tuning.py](https://github.com/themrshubh/mriclassifier/blob/main/cnn_model_tuning.py)| Code to perform bayesian optimization of the CNN model using 3-fold cross-validation. |
+|[run_cnn_model_tuning.sh](https://github.com/themrshubh/mriclassifier/blob/main/run_cnn_model_tuning.sh)| Runs the CNN model tuning with each type of MRI image as input. |
+|[cnn_model_evaluation.py](https://github.com/themrshubh/mriclassifier/blob/main/cnn_model_evaluation.py)| Code to evaluate the CNN model on the test dataset. |
+|[run_cnn_model_evaluation.sh](https://github.com/themrshubh/mriclassifier/blob/main/run_cnn_model_evaluation.sh)| Runs the CNN model evaluation with each type of MRI image as input. |
+|[cnn_lstm_model_functions.py](https://github.com/themrshubh/mriclassifier/blob/main/cnn_lstm_model_functions.py)| Definition of the CNN-LSTM model used for image classification. |
+|[cnn_lstm_model_tuning.py](https://github.com/themrshubh/mriclassifier/blob/main/cnn_model_tuning.py)| Code to perform bayesian optimization of the CNN-LSTM model using 3-fold cross-validation. |
+|[run_cnn_model_tuning.sh](https://github.com/themrshubh/mriclassifier/blob/main/run_cnn_model_tuning.sh)| Runs the CNN-LSTM model tuning with each type of MRI image as input. |
+|[cnn_model_evaluation.py](https://github.com/themrshubh/mriclassifier/blob/main/cnn_model_evaluation.py)| Code to evaluate the CNN-LSTM model on the test dataset. |
+|[run_cnn_model_evaluation.sh](https://github.com/themrshubh/mriclassifier/blob/main/run_cnn_model_evaluation.sh)| Runs the CNN-LSTM model evaluation with each type of MRI image as input. |
+|[svm_model_tuning_evaluation.py](https://github.com/themrshubh/mriclassifier/blob/main/svm_model_tuning_evaluation.py)| Code to tune and evaluate the SVM model on the test dataset. |
+|[run_svm_model_tuning_evaluation.sh](https://github.com/themrshubh/mriclassifier/blob/main/run_svm_model_tuning_evaluation.sh)| Runs the SVM model tuning and evaluation with each type of MRI image as input. |
 
 ### Programming Language and Libraries
 The project was built using Python 3. The following Python Libraries were used in implementation:
@@ -40,7 +42,7 @@ torchmetrics    0.5.1
     
 ### Execution Details
 
-Step 1: Clone the CSC_522_Project repository
+Step 1: Clone the mriclassifier repository
 <pre><code>git clone https://github.ncsu.edu/themrshubh/mriclassifier.git</code></pre>
 
 Step 2: Change the working directory to 'mriclassifier'
